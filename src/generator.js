@@ -32,7 +32,7 @@ const distributePoints = () => {
 
   pointsArray[pointsArray.length] = remainingPoints;
 
-  return pointsArray;
+  return shuffle(pointsArray);
 };
 
 const getTraits = (gender) => {
