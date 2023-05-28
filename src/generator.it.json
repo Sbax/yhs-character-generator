@@ -1,0 +1,491 @@
+{
+  "traits": [
+    {
+      "male": "Disonesto",
+      "female": "Disonesta",
+      "neutral": "Disonestə"
+    },
+    "Tollerante",
+    "Scortese",
+    "Gentile",
+    "Narcisista",
+    "Ottimista",
+    "Loquace",
+    "Sleale",
+    "Leale",
+    {
+      "male": "Meschino",
+      "female": "Meschina",
+      "neutral": "Meschinə"
+    },
+    "Sincero",
+    "Pessimista",
+    {
+      "male": "Ardito",
+      "female": "Ardita",
+      "neutral": "Arditə"
+    },
+    {
+      "male": "Avido",
+      "female": "Avida",
+      "neutral": "Avidə"
+    },
+    "Paziente",
+    "Crudele",
+    {
+      "male": "Onesto",
+      "female": "Onesta",
+      "neutral": "Onestə"
+    },
+    {
+      "male": "Spietato",
+      "female": "Spietata",
+      "neutral": "Spietatə"
+    },
+    {
+      "male": "Giocoso",
+      "female": "Giocosa",
+      "neutral": "Giocosə"
+    },
+    {
+      "male": "Antipatico",
+      "female": "Antipatica",
+      "neutral": "Antipaticə"
+    },
+    "Perfezionista"
+  ],
+  "professions": [
+    { "name": "Mendicante", "pay": "1d3 sen" },
+    {
+      "name": {
+        "male": "Servitore",
+        "female": "Servitrice",
+        "neutral": "Servitorə"
+      },
+      "pay": "0.5 sen"
+    },
+    {
+      "name": {
+        "male": "Scassinatore",
+        "female": "Scassinatrice",
+        "neutral": "Scassinatorə"
+      },
+      "pay": "1d6 sen"
+    },
+    {
+      "name": {
+        "male": "Minatore",
+        "female": "Minatrice",
+        "neutral": "Minatorə"
+      },
+      "pay": "10 sen"
+    },
+    {
+      "name": {
+        "male": "Marinao",
+        "female": "Marinaia",
+        "neutral": "Marinaiə"
+      },
+      "pay": "1d8 sen"
+    },
+    { "name": "Ambulante", "pay": "1d8 sen" },
+    {
+      "name": {
+        "male": "Contrabbandiere",
+        "female": "Contrabbandiera",
+        "neutral": "Contrabbandierə"
+      },
+      "pay": "2d8 sen"
+    },
+    {
+      "name": {
+        "male": "Artigiano",
+        "female": "Artigiana",
+        "neutral": "Artigianə"
+      },
+      "pay": "1d6x10 sen"
+    },
+    {
+      "name": {
+        "male": "Contadino",
+        "female": "Contadina",
+        "neutral": "Contadinə"
+      },
+      "pay": "3d6 sen"
+    },
+    { "name": "Negoziante", "pay": "4d6 sen" },
+    {
+      "name": {
+        "male": "Cuoco",
+        "female": "Cuoca",
+        "neutral": "Cuocə"
+      },
+      "pay": "1d8 sen"
+    },
+    { "name": "Commerciante", "pay": "1d8x10 sen" },
+    {
+      "name": {
+        "male": "Soldato",
+        "female": "Soldata",
+        "neutral": "Soldatə"
+      },
+      "pay": "15 sen"
+    },
+    {
+      "name": {
+        "male": "Poliziotto",
+        "female": "Poliziotta",
+        "neutral": "Poliziottə"
+      },
+      "pay": "30 sen"
+    },
+    { "name": "Insegnante", "pay": "35 sen" },
+    {
+      "name": {
+        "male": "Sacerdote shintoista",
+        "female": "Sacerdotessa shintoista",
+        "neutral": "Sacerdotə shintoista"
+      },
+      "pay": "1d8 sen"
+    },
+    {
+      "name": {
+        "male": "Monaco buddhista",
+        "female": "Monaca buddhista",
+        "neutral": "Monacə buddhista"
+      },
+      "pay": "1d8 sen"
+    },
+    {
+      "name": {
+        "male": "Operaio",
+        "female": "Operaia",
+        "neutral": "Operaiə"
+      },
+      "pay": "20 sen"
+    },
+    {
+      "name": {
+        "male": "Addetto di fabbrica",
+        "female": "Addetta di fabbrica",
+        "neutral": "Addettə di fabbrica"
+      },
+      "pay": "45 sen"
+    },
+    {
+      "name": {
+        "male": "Libero professionista",
+        "female": "Libera professionista",
+        "neutral": "Liberə professionista"
+      },
+      "pay": "50x1d3 sen",
+      "variants": [
+        "Contabile",
+        "Ingegnere",
+        {
+          "male": "Dottore",
+          "female": "Dottoressa",
+          "neutral": "Dottorə"
+        },
+        "Dentista",
+        {
+          "male": "Avvocato",
+          "female": "Avvocata",
+          "neutral": "Avvocatə"
+        },
+        {
+          "male": "Architetto",
+          "female": "Architetta",
+          "neutral": "Architettə"
+        }
+      ]
+    },
+    {
+      "name": {
+        "male": "Funzionario governativo",
+        "female": "Funzionaria governativa",
+        "neutral": "Funzionariə governativə"
+      },
+      "pay": "4.0x1d3 sen"
+    }
+  ],
+  "lastNames": [
+    "Abe",
+    "Sato",
+    "Suzuki",
+    "Takahashi",
+    "Tanaka",
+    "Watanabe",
+    "Ito",
+    "Yamamoto",
+    "Nakamura",
+    "Kobayashi",
+    "Kato",
+    "Yoshida",
+    "Yamada",
+    "Sasaki",
+    "Yamaguchi",
+    "Saito",
+    "Matsumoto",
+    "Inoue",
+    "Kimura",
+    "Hayashi",
+    "Shimizu"
+  ],
+  "firstNames": [
+    { "name": "Aiko", "gender": "female" },
+    { "name": "Akemi", "gender": "male" },
+    { "name": "Chiharu", "gender": "female" },
+    { "name": "Daisuke", "gender": "male" },
+    { "name": "Eiko", "gender": "neutral" },
+    { "name": "Fujita", "gender": "neutral" },
+    { "name": "Gin", "gender": "female" },
+    { "name": "Hachiro", "gender": "male" },
+    { "name": "Hideko", "gender": "female" },
+    { "name": "Jiro", "gender": "male" },
+    { "name": "Keiko", "gender": "female" },
+    { "name": "Ken", "gender": "male" },
+    { "name": "Mayumi", "gender": "female" },
+    { "name": "Mamoru", "gender": "female" },
+    { "name": "Mei", "gender": "female" },
+    { "name": "Tomiko", "gender": "female" },
+    { "name": "Takai", "gender": "male" },
+    { "name": "Uta", "gender": "male" },
+    { "name": "Utano", "gender": "female" },
+    { "name": "Yukio", "gender": "male" },
+    { "name": "Yuri", "gender": "female" }
+  ],
+  "age": [
+    18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54,
+    56, 58
+  ],
+  "startingItems": [
+    {
+      "name": "Onigiri",
+      "description": "polpette di riso"
+    },
+    {
+      "name": "Hyotan",
+      "description": "Zucca a forma di bottiglia. Può essere usata come borraccia. 700 ml."
+    },
+    {
+      "name": "Lampada ad olio",
+      "description": "6 ore di luce (raggio di 4,5 m) per fiaschetta d'olio."
+    },
+    { "name": "Corda", "description": "15 metri" },
+    { "name": "Scatola di fiammiferi", "description": "50 fiammiferi" },
+    { "name": "Strumenti", "description": "(sega, piccone, martello...)" },
+    {
+      "name": "Dadi truccati",
+      "description": "Due dadi a 6 facce truccati per giocare a Cho-han."
+    },
+    { "name": "Nulla" },
+    {
+      "name": "Yaku-Yoke Omamori",
+      "description": "Amuleto shintoista. Recupera PS pari al bonus dell'oggetto. Uso singolo."
+    },
+    {
+      "name": "Shenfu",
+      "description": "Talismano taoista. Quando affisso su uno yokai, assorbe PS da quest'ultimo pari al bonus dell'oggetto. Uso singolo."
+    },
+    {
+      "name": "Fionda",
+      "description": "Gittata: 200 metri. Colpo singolo. Ricarica: 10 secondi."
+    },
+    { "name": "Coltello tascabile", "description": "Facile da nascondere." },
+    { "name": "Tanto", "description": "Spada corta (lama di 15-30 cm)." },
+    {
+      "name": "Pistola Tanegashima a miccia",
+      "description": "Gittata: 100 metri. Colpo singolo. Ricarica: 60 secondi. 2-su-6 probabilità di incepparsi (3-su-6 se piove)."
+    },
+    {
+      "name": "Revolver ad azione singola",
+      "description": "Gittata: 100 metri. 6 colpi. Ricarica: 20 secondi."
+    }
+  ],
+  "items": [
+    {
+      "name": "Spuntino",
+      "description": "Anpan, torta di riso, polpette di riso, ecc. Permette di recuperare 1 PS."
+    },
+    {
+      "name": "Pasto frugale",
+      "description": "Una ciotola di riso con contorno. Permette di recuperare 1d3 PS."
+    },
+    {
+      "name": "Pasto completo",
+      "description": "Riso o noodles con carne o pesce e verdure. Permette di recuperare 1d8 PS."
+    },
+    {
+      "name": "Birra",
+      "description": "Aggiungete il bonus dell'oggetto ai tiri su CORAGGIO ma sottraetelo ai tiri su AUTOCONTROLLO, ACUME e SAGGEZZA. Durata: 2 ore"
+    },
+    {
+      "name": "Sake",
+      "description": "Aggiungete il bonus dell'oggetto ai tiri su CORAGGIO ma sottraetelo ai tiri su AUTOCONTROLLO, ACUME e SAGGEZZA. Durata: 4 ore."
+    },
+    {
+      "name": "Alloggio",
+      "description": "Il prezzo può variare a seconda della zona."
+    },
+    {
+      "name": "Hyotan",
+      "description": "Zucca a forma di bottiglia. Può essere usata come borraccia. 700 ml."
+    },
+    {
+      "name": "Lampada ad olio",
+      "description": "6 ore di luce (raggio di 4,5 m) per fiaschetta d'olio."
+    },
+    { "name": "Fiaschetta d'olio", "description": "100ml" },
+    { "name": "Corda", "description": "15 metri" },
+    { "name": "Scatola di fiammiferi", "description": "50 fiammiferi" },
+    {
+      "name": "Strumento",
+      "description": "Sega, piccone, martello, pinze, ecc."
+    },
+    {
+      "name": "Dadi truccati",
+      "description": "Due dadi a 6 facce truccati per giocare a Cho-han."
+    },
+    {
+      "name": "Carte Hanafuda contrassegnate",
+      "description": "Un mazzo di carte contrassegnate."
+    },
+    {
+      "name": "Abito in tre pezzi",
+      "description": "Gli indumenti occidentali sono obbligatori per i funzionari governativi"
+    },
+    {
+      "name": "Uniforme da funzionario di corte",
+      "description": "Uniforme per i membri del kazoku (nobili) e i funzionari civili."
+    },
+    { "name": "Bicicletta", "description": "Velocità: 10 km/h" },
+    { "name": "Automobile", "description": "Velocità massima: 16 km/h." },
+    {
+      "name": "Kenko Omamori",
+      "description": "Amuleto shintoista. Recupera un numero di punti di resistenza alle maledizioni pari al bonus dell'oggetto. Uso singolo."
+    },
+    {
+      "name": "Yaku-Yoke Omamori",
+      "description": "Amuleto shintoista. Recupera PS pari al bonus dell'oggetto. Uso singolo."
+    },
+    {
+      "name": "Jyuzu",
+      "description": "Corona di grani buddhista. Ottenete il bonus dell'oggetto per difendervi da danni soprannaturali."
+    },
+    {
+      "name": "Suzu",
+      "description": "Campana buddhista. Ottenete il bonus dell'oggetto quando eseguite un esorcismo."
+    },
+    {
+      "name": "Shenfu",
+      "description": "Talismano taoista. Quando affisso su uno yokai, assorbe PS da quest'ultimo pari al bonus dell'oggetto. Uso singolo."
+    },
+    {
+      "name": "Moneta Lei Gong",
+      "description": "Moneta-talismano taoista. Chi possiede l'oggetto ottiene [bonus dell'oggetto]-su-8 possibilità di intuire pericoli soprannaturali. Il GM effettua il tiro in segreto."
+    },
+    {
+      "name": "Ventaglio cerimoniale",
+      "description": "Il bonus dell'oggetto si applica quando vengono praticati rituali di benedizione"
+    },
+    {
+      "name": "Fucile a otturatore scorrevole",
+      "description": "Gittata: 500 metri. Colpo singolo. Ricarica: 10 secondi."
+    },
+    {
+      "name": "Fucile Minié",
+      "description": "Gittata: 500 metri. Colpo singolo. Ricarica: 30 secondi."
+    },
+    {
+      "name": "Revolver ad azione singola",
+      "description": "Gittata: 100 metri. 6 colpi. Ricarica: 20 secondi."
+    },
+    {
+      "name": "Pistola a percussione",
+      "description": "Gittata: 100 metri. Colpo singolo. Ricarica: 20 secondi."
+    },
+    {
+      "name": "Pistola a pietra focaia",
+      "description": "Gittata: 100 metri. Colpo singolo. Ricarica: 20 secondi. 1-su-6 probabilità di incepparsi (2-su-6 se piove)."
+    },
+    {
+      "name": "Pistola Tanegashima a miccia",
+      "description": "Gittata: 100 metri. Colpo singolo. Ricarica: 60 secondi. 2-su-6 probabilità di incepparsi (3-su-6 se piove)."
+    },
+    {
+      "name": "Fionda",
+      "description": "Gittata: 200 metri. Colpo singolo. Ricarica: 10 secondi."
+    },
+    {
+      "name": "Yumi",
+      "description": "Arco lungo (2+ metri) con presa asimmetrica. Gittata: 200 metri. Colpo singolo. Ricarica: 5 secondi."
+    },
+    { "name": "Katana", "description": "Spada lunga (lama di 60+ cm)." },
+    {
+      "name": "Tachi",
+      "description": "Spada lunga (lama di 70+ cm). Più leggera e curva di una katana."
+    },
+    { "name": "Wakizashi", "description": "Spada corta (lama di 30-60 cm)." },
+    { "name": "Tanto", "description": "Spada corta (lama di 15-30 cm)." },
+    { "name": "Coltello tascabile", "description": "Facile da nascondere." }
+  ],
+  "past": [
+    "ha perso una persona cara in strane circonstanze",
+    "ha ucciso qualcuno per errore",
+    "ha tradito un buon amico",
+    "è stato accusato ingiustamente di un crimine",
+    "ha recentemente perso tutto in un incendio",
+    "si sente responsabile della morte di una persona cara",
+    "è terribilmente malato",
+    "ha viaggiato in Europa",
+    "ha recentemente perso la propria maschera da cacciatore",
+    "ha avuto un'esperienza di pre-morte",
+    "si è lasciato alle spalle la famiglia",
+    "viaggia per il paese da 4 anni",
+    "è stato reclutato dalla Società molto recentemente",
+    "ha lasciato tutto per la Società",
+    "è stato costretto a unirsi alla Società",
+    "ha perso la fiducia nell'umanità secoli fa",
+    "non ha mai mostrato paura",
+    "amava il mare",
+    "ha imparato nel modo più duro",
+    "ha perso la memoria",
+    "ha perso una mano in un incidente",
+    "ha perso la testa",
+    "non sopporta i ciarlatani",
+    "ha fatto qualcosa di terribile",
+    "ha commesso un terribile errore",
+    "ha trascorso anni ad impararei dai migliori maestri cinesi"
+  ],
+  "goal": [
+    "vendetta",
+    "l'illuminazione",
+    "il perdono",
+    "il potere",
+    "ricchezza",
+    "piacere",
+    "la pace",
+    "la solitudine",
+    "risposte",
+    "sangue",
+    "qualcuno",
+    "aiuto",
+    "la cura per una malattia rara",
+    "un antico manufatto di grande potere",
+    "avventure",
+    "un nuovo stile di vita",
+    "l'amore",
+    "di aiutare gli indifesi",
+    "di riconciliarsi con il proprio passato",
+    "la conoscenza di sé",
+    "di guadagnarsi il rispetto della Società",
+    "di diventare un maestro cacciatore",
+    "una seconda possibilità"
+  ],
+  "intro": {
+    "male": "Sono un",
+    "female": "Sono una",
+    "neutral": "Sono unə"
+  }
+}
