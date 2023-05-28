@@ -18,7 +18,7 @@ export default function Home() {
     <main className={styles.main}>
       <Character character={character} />
       <button onClick={() => setCharacter(getCharacter())}>
-        Genera un nuovo cacciatore
+        Genera un nuovo cacciatorə
       </button>
 
       <footer>

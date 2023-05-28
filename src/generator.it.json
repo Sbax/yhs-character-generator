@@ -434,18 +434,42 @@
     "ha perso una persona cara in strane circonstanze",
     "ha ucciso qualcuno per errore",
     "ha tradito un buon amico",
-    "è stato accusato ingiustamente di un crimine",
+    {
+      "male": "è stato accusato ingiustamente di un crimine",
+      "female": "è stata accusata ingiustamente di un crimine",
+      "neutral": "è statə accusatə ingiustamente di un crimine"
+    },
     "ha recentemente perso tutto in un incendio",
     "si sente responsabile della morte di una persona cara",
-    "è terribilmente malato",
+    {
+      "male": "è terribilmente malato",
+      "female": "è terribilmente malata",
+      "neutral": "è terribilmente malatə"
+    },
     "ha viaggiato in Europa",
-    "ha recentemente perso la propria maschera da cacciatore",
+    {
+      "male": "ha recentemente perso la propria maschera da cacciatore",
+      "female": "ha recentemente perso la propria maschera da cacciatrice",
+      "neutral": "ha recentemente perso la propria maschera da cacciatorə"
+    },
     "ha avuto un'esperienza di pre-morte",
-    "si è lasciato alle spalle la famiglia",
+    {
+      "male": "si è lasciato alle spalle la famiglia",
+      "female": "si è lasciata alle spalle la famiglia",
+      "neutral": "si è lasciatə alle spalle la famiglia"
+    },
     "viaggia per il paese da 4 anni",
-    "è stato reclutato dalla Società molto recentemente",
+    {
+      "male": "è stato reclutato dalla Società molto recentemente",
+      "female": "è stata reclutata dalla Società molto recentemente",
+      "neutral": "è statə reclutatə dalla Società molto recentemente"
+    },
     "ha lasciato tutto per la Società",
-    "è stato costretto a unirsi alla Società",
+    {
+      "male": "è stato costretto a unirsi alla Società",
+      "female": "è stato costretta a unirsi alla Società",
+      "neutral": "è stato costrettə a unirsi alla Società"
+    },
     "ha perso la fiducia nell'umanità secoli fa",
     "non ha mai mostrato paura",
     "amava il mare",
@@ -456,7 +480,7 @@
     "non sopporta i ciarlatani",
     "ha fatto qualcosa di terribile",
     "ha commesso un terribile errore",
-    "ha trascorso anni ad impararei dai migliori maestri cinesi"
+    "ha trascorso anni ad imparare dai migliori maestri cinesi"
   ],
   "goal": [
     "vendetta",

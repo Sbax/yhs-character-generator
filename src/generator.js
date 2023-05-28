@@ -71,7 +71,7 @@ export const getCharacter = () => {
 
   const traits = getTraits(gender);
 
-  const past = getPast();
+  const past = getGendered(getPast(), gender);
   const goal = getGoal();
 
   const [courage, selfControl, sharpness, wisdom] = distributePoints();
