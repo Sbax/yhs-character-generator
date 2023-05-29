@@ -18,7 +18,11 @@
       "female": "Meschina",
       "neutral": "Meschinə"
     },
-    "Sincero",
+    {
+      "male": "Sincero",
+      "female": "Sincera",
+      "neutral": "Sincerə"
+    },
     "Pessimista",
     {
       "male": "Ardito",
