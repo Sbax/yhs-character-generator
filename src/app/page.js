@@ -17,11 +17,12 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Character character={character} />
-      <button onClick={() => setCharacter(getCharacter())}>
-        Genera unə nuovə cacciatorə
-      </button>
 
       <footer>
+        <button onClick={() => setCharacter(getCharacter())}>
+          Genera unə nuovə cacciatorə
+        </button>
+
         <section>
           Yokai Hunters Society © {new Date().getFullYear()}{" "}
           <a href="https://www.punkpadour.com/">Punkpadour</a>
