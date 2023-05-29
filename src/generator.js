@@ -48,11 +48,19 @@ const getTraits = (gender) => {
 const getItems = () => {
   const firstItem = getItem();
   let secondItem = getItem();
-  while (firstItem === secondItem) {
+  while (firstItem.name === secondItem.name) {
     secondItem = getItem();
   }
 
-  return [firstItem, secondItem];
+  let startingItem = getStartingItem();
+  while (
+    firstItem.name === startingItem.name ||
+    secondItem.name === startingItem.name
+  ) {
+    startingItem = getStartingItem();
+  }
+
+  return [firstItem, secondItem, startingItem];
 };
 
 export const getCharacter = () => {
@@ -79,7 +87,7 @@ export const getCharacter = () => {
   const hp = 8 + courage;
   const curseResistance = 2 + wisdom;
 
-  const items = [...getItems(), getStartingItem()];
+  const items = getItems();
 
   return {
     firstName,
