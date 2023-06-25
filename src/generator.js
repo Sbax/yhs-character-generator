@@ -85,7 +85,7 @@ export const getCharacter = () => {
   const [courage, selfControl, sharpness, wisdom] = distributePoints();
 
   const hp = 8 + courage;
-  const curseResistance = 2 + wisdom;
+  const curseResistance = 2 + selfControl;
 
   const items = getItems();
 
